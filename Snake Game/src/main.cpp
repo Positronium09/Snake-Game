@@ -243,12 +243,6 @@ LRESULT CALLBACK MainWindowProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
 			break;
 		}
 
-		case WM_QUIT:
-		{
-			DestroyWindow(hWnd);
-			break;
-		}
-
 		default:
 		{
 			return DefWindowProc(hWnd, msg, wParam, lParam);
